@@ -1,0 +1,19 @@
+CAT I
+STIG Items that aren't present in the March 2017 RHEL 7 STIG
+RHEL-07-010431 | PATCH | The operating system must not allow guest logon to the system."
+- Duplicate of RHEL-07-010450
+RHEL-07-020170 | PATCH | Operating systems handling data requiring data-at-rest protections must employ cryptographic mechanisms to prevent unauthorized disclosure and modification of the information at rest.
+RHEL-07-021280 - ?
+
+CAT II
+RHEL-07-040230 | AUDIT | The operating system, if using PKI-based authentication, must implement a local cache of revocation data to certificate validation in case of the inability to access revocation information via the network.
+*ADD* RHEL-07-030910 | AUDIT | All uses of the unlink command must be audited. 
+
+CAT III
+RHEL-07-010490 | PATCH | Unnecessary default system accounts must be removed.
+- Duplicate number but different fuction.
+- This function is a duplicate of RHEL-07-020270
+RHEL-07-021240 | PATCH | A separate file system must be used for user home directories (such as /home or an equivalent).
+RHEL-07-021260 | PATCH | The system must use /var/log/audit for the system audit data path.
+RHEL-07-021270 | PATCH | The system must use a separate file system for /tmp (or equivalent).
+RHEL-07-040010 | PATCH | The operating system must limit the number of concurrent sessions to 10 for all accounts and/or account types."

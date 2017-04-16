@@ -1,11 +1,3 @@
-- name: "LOW | RHEL-07-010490 | PATCH | Unnecessary default system accounts must be removed."
-  command: "true"
-  tags:
-    - cat3
-    - low
-    - patch
-    - RHEL-07-010490
-
 - name: "LOW | RHEL-07-020200 | PATCH | The operating system must remove all software components after updated versions have been installed."
   command: "true"
   tags:
@@ -22,14 +14,6 @@
     - patch
     - RHEL-07-020300
 
-- name: "LOW | RHEL-07-021240 | PATCH | A separate file system must be used for user home directories (such as /home or an equivalent)."
-  command: "true"
-  tags:
-    - cat3
-    - low
-    - patch
-    - RHEL-07-021240
-
 - name: "LOW | RHEL-07-021250 | PATCH | The system must use a separate file system for /var."
   command: "true"
   tags:
@@ -37,22 +21,6 @@
     - low
     - patch
     - RHEL-07-021250
-
-- name: "LOW | RHEL-07-021260 | PATCH | The system must use /var/log/audit for the system audit data path."
-  command: "true"
-  tags:
-    - cat3
-    - low
-    - patch
-    - RHEL-07-021260
-
-- name: "LOW | RHEL-07-021270 | PATCH | The system must use a separate file system for /tmp (or equivalent)."
-  command: "true"
-  tags:
-    - cat3
-    - low
-    - patch
-    - RHEL-07-021270
 
 - name: "LOW | RHEL-07-021600 | PATCH | The file integrity tool must be configured to verify Access Control Lists (ACLs)."
   command: "true"
@@ -69,14 +37,6 @@
     - low
     - patch
     - RHEL-07-021610
-
-- name: "LOW | RHEL-07-040010 | PATCH | The operating system must limit the number of concurrent sessions to 10 for all accounts and/or account types."
-  command: "true"
-  tags:
-    - cat3
-    - low
-    - patch
-    - RHEL-07-040010
 
 - name: "LOW | RHEL-07-040300 | PATCH | The system must display the date and time of the last successful account logon upon logon."
   command: "true"

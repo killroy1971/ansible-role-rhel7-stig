@@ -1203,6 +1203,14 @@
     - patch
     - RHEL-07-030900
 
+- name: "MEDIUM | RHEL-07-030910 | PATCH | All uses of the unlink command must be audited."
+  command: "true"
+  tags:
+    - cat2
+    - medium
+    - patch
+    - RHEL-07-030910
+
 - name: "MEDIUM | RHEL-07-030920 | PATCH | All uses of the unlinkat command must be audited."
   command: "true"
   tags:

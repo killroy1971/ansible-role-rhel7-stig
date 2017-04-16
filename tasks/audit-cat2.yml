@@ -27,21 +27,6 @@
     - ntpd
     - always
 
-- name: "MEDIUM | RHEL-07-040230 | AUDIT | The operating system, if using PKI-based authentication, must implement a local cache of revocation data to certificate validation in case of the inability to access revocation information via the network."
-  stat:
-    path: /var/lib/pki-kra/conf/server.xml
-  register: rhel_07_040230_audit
-  failed_when: no
-  changed_when: no
-  ignore_errors: yes
-  tags:
-    - cat2
-    - medium
-    - audit
-    - RHEL-07-040230
-    - always
-    - pki
-
 - name: "MEDIUM | RHEL-07-040420 | AUDIT | The SSH private host key files must have mode 0600 or less permissive."
   find:
     paths: /
