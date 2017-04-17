@@ -14,14 +14,6 @@
     - patch
     - RHEL-07-020300
 
-- name: "LOW | RHEL-07-021250 | PATCH | The system must use a separate file system for /var."
-  command: "true"
-  tags:
-    - cat3
-    - low
-    - patch
-    - RHEL-07-021250
-
 - name: "LOW | RHEL-07-021600 | PATCH | The file integrity tool must be configured to verify Access Control Lists (ACLs)."
   command: "true"
   tags:

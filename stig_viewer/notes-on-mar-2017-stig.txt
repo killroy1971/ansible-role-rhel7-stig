@@ -14,6 +14,7 @@ RHEL-07-010490 | PATCH | Unnecessary default system accounts must be removed.
 - Duplicate number but different fuction.
 - This function is a duplicate of RHEL-07-020270
 RHEL-07-021240 | PATCH | A separate file system must be used for user home directories (such as /home or an equivalent).
+RHEL-07-021250 | PATCH | The system must use a separate file system for /var.
 RHEL-07-021260 | PATCH | The system must use /var/log/audit for the system audit data path.
 RHEL-07-021270 | PATCH | The system must use a separate file system for /tmp (or equivalent).
 RHEL-07-040010 | PATCH | The operating system must limit the number of concurrent sessions to 10 for all accounts and/or account types."
